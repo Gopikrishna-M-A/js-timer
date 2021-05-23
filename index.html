@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <style>
+      body {
+        margin: 50px;
+        margin-left: 40px;
+        background-color: #3f3fff;
+      }
+      button {
+          margin: 1px;
+        background-color: rgb(1 183 255 / 73%);
+        border-color: rgb(10 75 144 / 15%);
+        border-style: solid;
+        padding: 7px;
+        border-radius: 7px;
+        width: 85px;
+      }
+      header{
+          background-color: rgb(95, 183, 255);
+          width: 270px;
+        
+      
+      }
+      h1 {
+          font-family: sans-serif;
+        color: #00004c;
+        font-size: 64px;
+      }
+      div {
+        background-color: lightskyblue;
+        width: 270px;
+        height: 300px;
+        
+       
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    
+    <header>
+      <button onclick="start()">start</button>
+      <button onclick="stop()">stop</button>
+      <button onclick="reset()">reset</button>
+    </header>
+   
+    <div>
+      <h1 id="h1tag">0 sec</h1>
+    </div>
+  
+</body>
+</html>
